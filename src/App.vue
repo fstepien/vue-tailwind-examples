@@ -6,6 +6,8 @@
         <router-link class="font-semibold text-gray-700 hover:underline" to="/dropdown">Dropdown</router-link>
         <span class="mx-4 text-gray-500">|</span>
         <router-link class="font-semibold text-gray-700 hover:underline" to="/modal">Modal</router-link>
+        <span class="mx-4 text-gray-500">|</span>
+        <router-link class="font-semibold text-gray-700 hover:underline" to="/toggle">Toggle</router-link>
       </div>
       <div class="mt-2">
         <a href="https://github.com/adamwathan/vue-tailwind-examples" class="text-sm font-semibold text-gray-600 hover:underline">
@@ -51,5 +53,11 @@
 }
 .scale-100 {
   transform: scale(1);
+}
+.transition-slow-ease-in {
+  transition: all 500ms ease-in;
+}
+.transition-inherit {
+  transition: inherit
 }
 </style>
