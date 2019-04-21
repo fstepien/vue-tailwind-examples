@@ -14,11 +14,6 @@
 
 <script>
 export default {
-  props: ["value"],
-  data() {
-    return {};
-  },
-
-  computed: {}
+  props: ["value"]
 };
 </script>
