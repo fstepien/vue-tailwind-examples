@@ -60,6 +60,7 @@
 .transition-inherit {
   transition: inherit
 }
+/* class in benface/tailwindcss-transforms plugin */
 .-translate-x-full {
   transform: translateX(-100%);
 }
