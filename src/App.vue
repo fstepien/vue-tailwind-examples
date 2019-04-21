@@ -60,4 +60,7 @@
 .transition-inherit {
   transition: inherit
 }
+.-translate-x-full {
+  transform: translateX(-100%);
+}
 </style>
